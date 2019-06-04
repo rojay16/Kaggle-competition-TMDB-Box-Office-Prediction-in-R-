@@ -11,3 +11,5 @@ technqiues were used to replace actors, directors, producers ect. with ranks bas
 techniques were used such Box-cox transformation to normailize the continous vairables, and multiple imputation using chain equations
 to impute missing data. Finally techniques of ensemble modelling were used where a stacked model was generated using several different, random forest, 
 gradient boosting and elastic-net regression. Packages used in this scirpt include caret,dyplyr,stringr, mice, randomForest and gbm.
+
+This repository contains the data sets used to generate the predictions, these have been slightly modified to the ones provided in the Kaggle competition, so you must use these datasets if you want to replicate the script.
