@@ -10,6 +10,6 @@ to be reduced (as you have hundreds of actors, and algorithms such as random for
 technqiues were used to replace actors, directors, producers ect. with ranks based on the amount of money their movies generated. Other stasitical 
 techniques were used such Box-cox transformation to normailize the continous vairables, and multiple imputation using chain equations
 to impute missing data. Finally techniques of ensemble modelling were used where a stacked model was generated using several different, random forest, 
-gradient boosting and elastic-net regression. Packages used in this scirpt include caret,  dyplyr,stringr, mice, randomForest and gbm.
+gradient boosting and elastic-net regression models. Packages used in this scirpt include caret,  dyplyr,stringr, mice, randomForest and gbm.
 
 This repository contains the data sets used to generate the predictions, these have been slightly modified compared to the ones provided in the Kaggle competition, so you must use these datasets if you want to replicate the script.
